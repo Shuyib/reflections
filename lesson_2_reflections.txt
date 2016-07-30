@@ -14,12 +14,16 @@ What value do you think it offers?
 # How can you use the staging area to make sure you have one commit per logical
 change?
 	** git diff -- staged **
-	Compares the working directory and the staging area. Thus, if i make changes to the
+	Compares the staging area and the most recent commit. Thus, if i make changes to the
 	a file in the working directory, i can confirm if those are the right changes with the
 	above command. Also, if the satisfy one commit per logical change to proceed.
 
 # What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	** git branch **
+	When making different versions of the master file e.g for another language. Yet, it
+	doesn't change the master file but, allows for changes in either and they don't affect
+	master or branch.
 
 # How do the diagrams help you visualize the branch structure?
 
