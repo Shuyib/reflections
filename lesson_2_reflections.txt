@@ -32,6 +32,23 @@ organized? How would branches help?
 
 # What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The coins branch and the master branch are brought together. Therefore, some commits
+	were retained others were not
+	i learned about these three commands
+	** git merge **
+	brings two branches together and returns the intersection between the two commits
+	and files.
+	** git branch -d branch
+	removes an already merged branches
+	** git show **
+	shows u a commit made compared to the parent
+The digram was important step to allow visualisation of what the git commands are doing.
 
-# What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+# What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Pros:
+	Well, upon fixing a merge error which could take some time depending on the file.
+	Git's automatic feature helps the now tired user to do less work.
+	Cons:
+	If you've made a mistake, git will still merge. Even if its wrong for you and right
+	for git.
