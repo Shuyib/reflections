@@ -1,13 +1,23 @@
-When would you want to use a remote repository rather than keeping all your work
+# When would you want to use a remote repository rather than keeping all your work
 local?
-      When i'm working on project/projects so that i can keep other versions in case of anything.
-      If i'm working on something and in a few days i'll be travelling and i want to continue working on the file elsewhere
+      When i'm working on project/projects so that i can keep other versions in case of
+      anything.
+      If i'm working on something and in a few days i'll be travelling and i want to
+      continue working on the file elsewhere
       and i'm using another computer.
      ** git remote **
      Used when you want to push a local file to github remote server.
-     
-     Process: Make sure you are where you initialized git version control system that is, the file.
-     Run git remote add origin URL github provides once you've named and created the repository
+
+     Process: Make sure you are where you initialized git version control system that is,
+     the file.
+     Run git remote add origin URL github provides once you've named and created the
+     repository
      (labelled for command line).
-     Verify if URL has been accepted in your machine (output: fetch and push links the same).
+     Verify if URL has been accepted in your machine (output: fetch and push links the
+     same).
      Use git push origin master to upload to your created repository on github.
+
+# Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+	I suppose this alludes to Git pulling all the changes including those you didn't want
+	to pull in the first place.
