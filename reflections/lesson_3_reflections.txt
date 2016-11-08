@@ -21,3 +21,22 @@ local?
 automatically stay up-to-date with your remote repository?
 	I suppose this alludes to Git pulling all the changes including those you didn't want
 	to pull in the first place.
+
+# Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+	** git fork ** [use in github only]
+	Only applies to github, however, it is the same as the clone.
+	side effects include:
+	keeps track of forks
+	forks link back to the original
+	suggesting changes easier
+
+	** git clone ** [github to local]
+	Kage Bushin no jutsu [Naruto]
+	Make a replica of the original repo.
+
+	** git branch ** [either though local makes it easier to look into]
+	applies when you want to make different versions of the master repo
+
+
