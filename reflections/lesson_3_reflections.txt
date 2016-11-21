@@ -40,7 +40,8 @@ use one instead of another?
 	** git branch ** [either though local makes it easier to look into]
 	applies when you want to make different versions of the master repo
 
-# What is the benefit of having a copy of the last known state of the remote stored locally?
+# What is the benefit of having a copy of the last known state of the remote stored
+locally?
 
 	In case you want to work on it and you don't have an internet connection, if you have
 	an extra copy it gives peace of mind if make a major error or retrace an error.
@@ -54,5 +55,16 @@ use one instead of another?
 	** git pull **
 	Does the same thing as fetch. Though, you'll have to just commit the changes made.
 	Then push changes in either.
+
+# How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+	I would use Google Drive or SVN depending on the file in question.
+	Easier: To see updates on changes in files
+	Harder: To take advantage of the features that Git provides like commit ids, local
+	and remote repositories and easy collaboration. Additionally, access to history
+	via commits when using git log
+
+	I have never used SVN so i don't know it.
+
 
 
