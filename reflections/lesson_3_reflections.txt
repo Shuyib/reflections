@@ -5,6 +5,7 @@ local?
       If i'm working on something and in a few days i'll be travelling and i want to
       continue working on the file elsewhere
       and i'm using another computer.
+
      ** git remote **
      Used when you want to push a local file to github remote server.
 
@@ -38,5 +39,20 @@ use one instead of another?
 
 	** git branch ** [either though local makes it easier to look into]
 	applies when you want to make different versions of the master repo
+
+# What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	In case you want to work on it and you don't have an internet connection, if you have
+	an extra copy it gives peace of mind if make a major error or retrace an error.
+
+	** git fetch **
+	if they are conflicts between local repo and the remote repo. Where they are both
+	updated. Then run git fetch origin/master and run git merge master origin/master
+	Commit changes after fixing the conflict with message for instance,
+	merge remote-tracking branch "origin/master"
+
+	** git pull **
+	Does the same thing as fetch. Though, you'll have to just commit the changes made.
+	Then push changes in either.
 
 
