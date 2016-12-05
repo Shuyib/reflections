@@ -64,6 +64,8 @@ and what would be harder?
 	and remote repositories and easy collaboration. Additionally, access to history
 	via commits when using git log
 
+	I have never used SVN so i don't know it.
+
 # When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 	For the first question, maybe your making another version of the program written in
@@ -76,7 +78,7 @@ master?  What benefits does each approach have?
 	confused. Consequently, having something in one place is a better. Centralised in
 	short.
 
-	I have never used SVN so i don't know it.
+
 
 
 
