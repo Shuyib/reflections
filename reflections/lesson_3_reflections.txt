@@ -64,6 +64,18 @@ and what would be harder?
 	and remote repositories and easy collaboration. Additionally, access to history
 	via commits when using git log
 
+# When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+	For the first question, maybe your making another version of the program written in
+	another language or you want to make an experimental feature and you don't want to
+	merge with the master until you've done enough tests on the feature.
+
+	Second, The branches could help in collaboration maybe you want different perspectives
+	of a project then you see other peoples ideas and decide on which is the best course
+	of action. As for using master only maybe if there are a lot of branches one can get
+	confused. Consequently, having something in one place is a better. Centralised in
+	short.
+
 	I have never used SVN so i don't know it.
 
 
